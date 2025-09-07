@@ -4,3 +4,4 @@
 
 # instalations
 - npm i swr
+- npm i lucide-react

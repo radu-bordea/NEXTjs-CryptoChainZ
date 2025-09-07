@@ -1,6 +1,6 @@
 const AboutPage = () => {
   return (
-    <div className="container mx-auto m-12 space-y-8 text-gray-400">
+    <div className="container mx-auto mt-24 space-y-8 text-gray-400">
       <h1 className="text-3xl text-center text-amber-200">About CryptoChainZ</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. At ipsum
