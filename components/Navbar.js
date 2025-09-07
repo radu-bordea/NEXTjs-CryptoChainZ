@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 shadow-md bg-neutral-900">
+    <nav className="fixed top-0 left-0 w-full z-50 shadow-md bg-black">
       <div className="mx-auto px-4 flex justify-end items-center h-16">
 
         {/* Desktop Menu */}
@@ -16,8 +16,8 @@ export default function Navbar() {
           <Link href="/" className="hover:text-blue-500">
             Home
           </Link>
-          <Link href="/page" className="hover:text-blue-500">
-            Page
+          <Link href="/about" className="hover:text-blue-500">
+            About
           </Link>
         </div>
 
@@ -50,11 +50,11 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            href="/page"
+            href="/about"
             className="text-xl hover:text-blue-400"
             onClick={() => setIsOpen(false)}
           >
-            Page
+            About
           </Link>
         </div>
       )}

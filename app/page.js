@@ -73,7 +73,7 @@ export default function Home() {
   return (
     <div className="w-full min-h-screen px-4">
       {/* Title */}
-      <h1 className="text-center text-gray-400 text-3xl mt-8 mb-4">
+      <h1 className="text-center mt-24 text-gray-400 text-3xl mt-8 mb-4">
         🚀 CryptoChainZ
       </h1>
 
