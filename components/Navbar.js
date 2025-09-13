@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 shadow-md bg-black">
+    <nav className="fixed top-0 left-0 border-b-1 border-neutral-600 w-full z-50 shadow-md bg-neutral-900">
       <div className="mx-auto px-4 flex justify-end items-center h-16">
 
         {/* Desktop Menu */}
